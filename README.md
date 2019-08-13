@@ -13,7 +13,7 @@ IV.  [Web hook](#web-hook)
 V.   [OAuth server](#oaut)
 
 ## General Considerations <a name="general"></a>
-Please make sure to have completed the correspoding workspace configuration for a new cloud to cloud integration with st-schema before going through this example.
+Please make sure to have completed the corresponding workspace configuration for a new cloud to cloud integration with st-schema before going through this example.
 
 ## Stack and Dependencies <a name="stack"></a>
 
