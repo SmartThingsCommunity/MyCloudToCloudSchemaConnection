@@ -1,4 +1,4 @@
-# My OAuth 2
+# My Clout to Cloud Schema Connection
 This repository contains two Node.js applications, one that corresponds to a st-chema cloud to cloud web-hook, and a OAuth server.
 
 ## Table of Contents
