@@ -1,0 +1,36 @@
+<html>
+<head>              
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <title>Mock Google OAuth2 (and maybe other services)</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+
+            <h2>OAuth2</h2>
+          
+            <form action="/login">
+                <div class="form-group">
+                    <label for="email">Username: </label>
+                    <input type="email" class="form-control" placeholder="example@gmail.com"
+                           name="email" id="email"/>
+                    <p class="help-block">Enter the email address</p>
+                </div>
+                 <div class="form-group">
+                    <label for="name">Password: </label>
+                    <input type="password" name="name" id="name" class="form-control" />
+                </div>
+                <div class="form-group" style="display: none;">
+                    <label for="expires_in">Token expiry (in seconds): </label>
+                    <input type="text" class="form-control" value="3600" name="expires_in" id="expires_in"/>
+                </div>
+                <input type="submit" value="Authorize"/>
+            </form>
+        </div>
+        <div class="col-lg-3"></div>
+    </div>
+</div>
+</body>
+</html>

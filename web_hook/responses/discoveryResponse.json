@@ -1,0 +1,45 @@
+{
+    "headers": {
+      "schema": "st-schema",
+      "version": "1.0",
+      "interactionType": "discoveryResponse",
+      "requestId": ""
+    },
+    "devices": [
+      {
+        "externalDeviceId": "pdevice-1",
+        "deviceCookie": {"updatedcookie": "old or new value"},
+        "friendlyName": "My Cloud Connected 1",
+        "manufacturerInfo": {
+          "manufacturerName": "Custom",
+          "modelName": "A19 Color Bulb",
+          "hwVersion": "v1 US switch",
+          "swVersion": "23.123.231"
+        },
+        "deviceContext": {
+          "roomName": "Kitchen",
+          "groups": ["Kitchen Lights", "House Bulbs"],
+          "categories": ["light", "switch"]
+        },
+        "deviceHandlerType": "c2c-rgbw-color-bulb"
+      },
+      {
+        "externalDeviceId": "pdevice-2",
+        "deviceCookie": {"updatedcookie": "old or new value"},
+        "friendlyName": "My Cloud Connected 2",
+        "manufacturerInfo": {
+          "manufacturerName": "Custom",
+          "modelName": "A17 Color Bulb",
+          "hwVersion": "v1 US switch",
+          "swVersion": "3.03.11"
+        },
+        "deviceContext": {
+          "roomName": "Living Room",
+          "groups": ["Hall Lights"],
+          "categories": ["light", "switch"]                
+        },
+        "deviceHandlerType": "c2c-rgbw-color-bulb"
+      }
+    ]
+  }
+  

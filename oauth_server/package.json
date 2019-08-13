@@ -1,0 +1,24 @@
+{
+  "name": "my-cloud-connection-oauth-server",
+  "version": "1.0.0",
+  "description": "Samsung smartthings cloud connector",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cloud",
+    "connector",
+    "smartthings"
+  ],
+  "author": "Jesus Mejia",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "randomstring": "^1.1.5",
+    "underscore": "^1.9.1"
+  }
+}

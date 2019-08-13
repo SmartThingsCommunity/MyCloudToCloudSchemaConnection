@@ -1,0 +1,16 @@
+{
+  "name": "web_hook",
+  "version": "1.0.0",
+  "description": "webhook that implements st-schema to interact smartthings cloud",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesus M",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "st-schema": "^1.1.2"
+  }
+}

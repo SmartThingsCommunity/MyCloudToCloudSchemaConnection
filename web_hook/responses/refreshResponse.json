@@ -1,0 +1,48 @@
+{
+    "pdevice-1": {
+        "externalDeviceId": "pdevice-1",
+        "states": [
+            {
+                "component": "main",
+                "capability": "st.switch",
+                "attribute": "switch",
+                "value": "on"
+            },
+            {
+                "component": "main",
+                "capability": "st.switchLevel",
+                "attribute": "level",
+                "value": 10
+            },
+            {
+                "component": "main",
+                "capability": "st.healthCheck",
+                "attribute": "healthStatus",
+                "value": "online"
+            }
+        ]
+    },
+    "pdevice-2": {
+        "externalDeviceId": "pdevice-2",
+        "states": [
+            {
+                "component": "main",
+                "capability": "st.switch",
+                "attribute": "switch",
+                "value": "on"
+            },
+            {
+                "component": "main",
+                "capability": "st.switchLevel",
+                "attribute": "level",
+                "value": 10
+            },
+            {
+                "component": "main",
+                "capability": "st.healthCheck",
+                "attribute": "healthStatus",
+                "value": "online"
+            }
+        ]
+    }
+}
