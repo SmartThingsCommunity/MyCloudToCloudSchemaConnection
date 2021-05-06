@@ -19,6 +19,6 @@
     "express": "^4.17.1",
     "express-session": "^1.16.2",
     "randomstring": "^1.1.5",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   }
 }
